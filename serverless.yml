@@ -1,0 +1,34 @@
+org: funguardian
+app: openai-app
+service: openai-app
+
+frameworkVersion: "3"
+
+custom:
+  wsgi:
+    app: app.app
+  logRetentionInDays: 7
+
+provider:
+  name: aws
+  region: ap-southeast-1
+  stage: dev
+  timeout: 20
+  runtime: python3.8
+
+functions:
+  openai-app:
+    handler: wsgi_handler.handler
+    url: true
+
+plugins:
+  - serverless-wsgi
+  - serverless-python-requirements
+  - serverless-plugin-log-retention
+
+package:
+  patterns:
+    - "!node_modules/**"
+    - "!venv/**"
+    - "!.serverless/**"
+    - "!__pycache__/**"
