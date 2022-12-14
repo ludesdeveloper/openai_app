@@ -48,3 +48,5 @@ sls
 ```
 sls remove
 ```
+### **Deploying via Serverless CI/CD**
+1. Sometimes "sls deploy" getting error, and here is the [steps](https://www.serverless.com/framework/docs/guides/cicd) you can take to deploy you app
