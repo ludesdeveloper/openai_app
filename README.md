@@ -48,3 +48,8 @@ sls
 ```
 sls remove
 ```
+### **Destroy Application**
+1. Remove all AWS stack
+```
+sls remove
+```
