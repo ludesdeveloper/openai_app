@@ -19,7 +19,7 @@ flowchart LR
 ### **Deploy With Serverless Framework**
 1. Clone repository
 ```
-git clone https://github.com/ludesdeveloper/expense_app.git
+git clone https://github.com/ludesdeveloper/openai_app.git 
 ```
 2. Please update your organization inf serverless.yml file
 ```
