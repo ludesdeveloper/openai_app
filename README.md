@@ -50,3 +50,9 @@ sls remove
 ```
 ### **Deploying via Serverless CI/CD**
 1. Sometimes "sls deploy" getting error, and here is the [steps](https://www.serverless.com/framework/docs/guides/cicd) you can take to deploy you app
+### **Other Option for Deploy**
+1. You can run application locally
+```
+flask run
+```
+2. Now you can make your self online with service like [ngrok](https://ngrok.com/)
