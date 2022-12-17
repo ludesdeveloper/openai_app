@@ -68,4 +68,5 @@ export MAXTOKEN=max_token_for_chatgpt
 ```
 flask run
 ```
-1. Now you can make your self online with service like [ngrok](https://ngrok.com/)
+4. Now you can make your self online with service like [ngrok](https://ngrok.com/)
+5. Configure your telegram [webhook](https://github.com/ludesdeveloper/openai_app#configure-telegram-bot-webhook)
