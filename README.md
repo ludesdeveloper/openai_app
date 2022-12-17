@@ -16,6 +16,7 @@ flowchart LR
 1. [Serverless Framework](https://www.serverless.com/framework/docs/getting-started) installed
 2. [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) configured
 3. [Telegram Bot](https://core.telegram.org/bots/tutorial) configured
+4. [Open API Key](https://beta.openai.com/docs/api-reference/introduction)
 ### **Deploy With Serverless Framework**
 1. Clone repository
 ```
@@ -41,6 +42,7 @@ sls
 2. Create new Environment Variable with key TELEGRAMAPI, and for value is your bot api token
 3. Create new Environment Variable with key OPENAPIKEY, and for value is your open api key 
 4. Create new Environment Variable with key TELEGRAMUSERID, and for value is your userid
+5. Create new Environment Variable with key MAXTOKEN, and for value is your max token 
 ### **Interraction With Bot**
 1. Just ask everything, OpenAI will answer your question 
 ### **Destroy Application**
