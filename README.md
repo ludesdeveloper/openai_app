@@ -57,8 +57,15 @@ sls remove
 ```
 pip install -r requirements.txt
 ```
-2. You can run application locally
+2. Export all needed environment variable
+```
+export TELEGRAMAPI=your_telegram_token
+export OPENAPIKEY=your_open_api_token
+export TELEGRAMUSERID=your_telegram_user_id
+export MAXTOKEN=max_token_for_chatgpt
+```
+3. You can run application locally
 ```
 flask run
 ```
-3. Now you can make your self online with service like [ngrok](https://ngrok.com/)
+1. Now you can make your self online with service like [ngrok](https://ngrok.com/)
