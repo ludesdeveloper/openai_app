@@ -10,7 +10,7 @@ def get_response_openai(question):
         model="text-davinci-003",
         prompt=question,
         temperature=0.7,
-        max_tokens=MAXTOKEN,
+        max_tokens=int(MAXTOKEN),
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0
