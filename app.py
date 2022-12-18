@@ -33,6 +33,7 @@ def tel_send_message(chat_id, text):
 def index():
     if request.method == 'POST':
         msg = request.get_json()
+        print(msg)
         check_userid = msg['message']['chat']['username']
         print(f'userid detected: {check_userid}')
         TELEGRAMUSERID = os.environ.get('TELEGRAMUSERID')
